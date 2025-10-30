@@ -61,6 +61,10 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Pet Store Reference",
+        "openapi": "https://raw.githubusercontent.com/swagger-api/swagger-petstore/refs/heads/master/src/main/resources/openapi.yaml"
       }
     ],
     "global": {
