@@ -55,6 +55,7 @@
             "group": "Endpoint examples",
             "pages": [
               "api-reference/endpoint/get",
+              "api-reference/endpoint/get-stations",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
@@ -103,6 +104,9 @@
       "label": "Dashboard",
       "href": "https://dashboard.mintlify.com"
     }
+  },
+  "api": {
+    "openapi": "https://gist.githubusercontent.com/mayankshouche/c6ee754a80c34c1f9bee1eff776b69ed/raw/39ed2dab8b1f572b707d4a43aca453bf05bca66e/train.json"
   },
   "contextual": {
     "options": [
