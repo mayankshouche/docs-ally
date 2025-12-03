@@ -65,6 +65,7 @@
       },
       {
         "tab": "Pet Store Reference",
+        "pages": ["api-reference/endpoint/new-fake-get"],
         "openapi": "https://raw.githubusercontent.com/swagger-api/swagger-petstore/refs/heads/master/src/main/resources/openapi.yaml"
       }
     ],
