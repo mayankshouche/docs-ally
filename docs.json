@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Authentication Groups Demo",
+  "name": "Authentication Groups",
   "colors": {
     "primary": "#16A34A",
     "light": "#22C55E",
@@ -10,11 +10,11 @@
   "navigation": {
     "groups": [
       {
-        "group": "Access demo",
+        "group": "Access control",
         "pages": [
-          "access-demo/public",
-          "access-demo/engineering",
-          "access-demo/sales"
+          "access/public",
+          "access/engineering",
+          "access/sales"
         ]
       }
     ]
