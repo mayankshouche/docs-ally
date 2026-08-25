@@ -11,6 +11,19 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Access demo",
+        "groups": [
+          {
+            "group": "Access control",
+            "pages": [
+              "access-demo/public",
+              "access-demo/engineering",
+              "access-demo/sales"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
@@ -55,7 +68,6 @@
             "group": "Endpoint examples",
             "pages": [
               "api-reference/endpoint/get",
-              "api-reference/endpoint/get-stations",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
