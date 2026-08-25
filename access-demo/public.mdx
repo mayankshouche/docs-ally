@@ -8,6 +8,12 @@ public: true
 
 Anyone can view this page, including unauthenticated visitors.
 
+{
+  !user.groups?.length
+    ? <a href="/login">Sign in to view protected content</a>
+    : null
+}
+
 <Note>
   Demo check: open this page in a private browser window. It should load without
   prompting you to sign in.
